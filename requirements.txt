@@ -1,0 +1,15 @@
+
+asgiref==3.10.0
+Django==5.2.8
+django-extensions==4.1
+djangorestframework==3.16.1
+djangorestframework_simplejwt==5.5.1
+pydot==4.0.1
+PyJWT==2.10.1
+pyparsing==3.2.5
+redis==7.1.0
+rom==1.1.2
+six==1.17.0
+sqlparse==0.5.3
+Student==0.0.1
+gunicorn
