@@ -1,0 +1,108 @@
+# 🎓 Project Nexus – Student Management API
+A modern and scalable **Django REST Framework API** for managing students, teachers, courses, enrollments, attendance, and grades.
+Built for the **ALX Backend Specialization** and designed to follow industry best practices.
+
+---
+
+## 🚀 Project Description
+The Student Management API is a backend system that supports all operations required to run an academic institution efficiently.
+It enables CRUD operations for students and teachers, course creation, enrollment logic, attendance tracking, grading, and authentication.
+
+This API is built with **clean architecture**, follows **REST principles**, and is ready for deployment.
+
+---
+
+# 📌 Table of Contents
+- [Features](#-features)
+- [Entity Relationship Diagram (ERD)](#-entity-relationship-diagram-erd)
+- [Tech Stack](#-tech-stack)
+- [API Endpoints](#-api-endpoints)
+- [Project Structure](#-project-structure)
+- [Setup Instructions](#-setup-instructions)
+- [Authentication](#-authentication)
+- [Demo & Deployment](#-demo--deployment)
+- [Author](#-author)
+
+---
+
+## 🌟 Features
+### 🔹 Core Features
+- Student Registration & Management
+- Teacher Management
+- Course Creation & Assignment
+- Enrollment System
+- Attendance Tracking
+- Grades Recording
+- Admin Dashboard (Django Admin)
+- Token-Based Authentication
+
+### 🔹 Bonus Features
+- Pagination
+- Validation
+- Nested Relationships
+- Error Handling
+- Reusable Serializers
+- Clean Folder Structure
+
+---
+
+## 🧩 Entity Relationship Diagram (ERD)
+
+📌 **Google Doc / ERD Link:**
+*(Add your link here once you complete Task 1)*
+
+**Models included:**
+- Student
+- Teacher
+- Course
+- Enrollment
+- Attendance
+- Grade
+
+---
+
+## 🛠 Tech Stack
+- **Python 3.10+**
+- **Django 5+**
+- **Django REST Framework (DRF)**
+- **SQLite / PostgresSQL**
+- **Git & GitHub**
+
+---
+
+## 🔗 API Endpoints (Overview)
+
+### 👨‍🎓 Students
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /api/students/ | List all students |
+| POST | /api/students/ | Create student |
+| GET | /api/students/{id}/ | Retrieve |
+| PUT | /api/students/{id}/ | Update |
+| DELETE | /api/students/{id}/ | Delete |
+
+### 👩‍🏫 Teachers
+| Method | Endpoint |
+|--------|----------|
+| GET /api/teachers/ | List |
+| POST /api/teachers/ | Create |
+
+### 📘 Courses
+| Method | Endpoint |
+|--------|----------|
+| GET /api/courses/ | List |
+| POST /api/courses/ | Create |
+
+### 📝 Enrollment
+| POST | /api/enroll/ |
+
+### 🕒 Attendance
+| POST | /api/attendance/ |
+
+### 🧮 Grades
+| POST | /api/grades/ |
+
+---
+
+## 📁 Project Structure
+
