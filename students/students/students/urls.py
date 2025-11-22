@@ -4,5 +4,7 @@ from students.views import StudentRetrieveUpdateDeleteView, StudentListCreateVie
 
 urlpatterns = [
     path('', StudentListCreateView.as_view(), name='student-list-create'),
-    path('<int:pk>/', StudentRetrieveUpdateDeleteView.as_view(), name='student-detail'),
+    path('<int:pk>/',
+         StudentRetrieveUpdateDeleteView.as_view(),
+         name='student-detail'),
 ]

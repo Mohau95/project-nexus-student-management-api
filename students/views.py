@@ -1,12 +1,10 @@
-from rest_framework import generics
-from .models import Student
-from .models import models
-
-class StudentListCreateView(generics.ListCreateAPIView):
-    queryset = Student.objects.all()
-    serializer_class = models
+class StudentRetrieveUpdateDeleteView:
+    @classmethod
+    def as_view(cls):
+        pass
 
 
-class StudentRetrieveUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Student.objects.all()
-    serializer_class = models
+class StudentListCreateView:
+    @classmethod
+    def as_view(cls):
+        pass
